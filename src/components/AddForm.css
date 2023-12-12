@@ -1,0 +1,103 @@
+body {
+    background-color: #ede7f6;
+    box-sizing: border-box;
+    font-family: Roboto Mono, monospace;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.addInp {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid rgb(126, 87, 194);
+    outline-color: rgb(81, 45, 168);
+    border-radius: 7px;
+}
+
+.textarea {
+    width: 30%;
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid rgb(126, 87, 194);
+    outline-color: rgb(81, 45, 168);
+    border-radius: 7px;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.saveBtn {
+    padding: 10px 15px;
+    background-color: rgb(126, 87, 194);
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.2s ease 0s;
+}
+
+.save {
+    display: flex;
+    justify-content: center;
+}
+
+.pink {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(240, 98, 146);
+    border-radius: 50%;
+}
+
+.purple {
+    border-radius: 50%;
+    background-color: rgb(186, 104, 200);
+    height: 50px;
+    width: 50px;
+}
+
+.blue {
+    border-radius: 50%;
+    background-color: rgb(79, 195, 247);
+    height: 50px;
+    width: 50px;
+}
+
+.yellow {
+    border-radius: 50%;
+    background-color: rgb(255, 213, 79);
+    height: 50px;
+    width: 50px;
+}
+
+.green {
+    border-radius: 50%;
+    background-color: rgb(174, 213, 129);
+    height: 50px;
+    width: 50px;
+}
+
+.colorlabel {  
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.colors{
+    display: flex;
+    gap: 15px;
+}
+
+.colorDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px 0;
+    gap: 70px;
+}

@@ -1,0 +1,33 @@
+.card {
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px dashed;
+    margin: 20px 20px 10px;
+    position: relative;
+}
+
+.text {
+    margin: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+}
+
+.svg {
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}

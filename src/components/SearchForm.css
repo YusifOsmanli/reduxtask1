@@ -1,0 +1,14 @@
+.searchInp{
+    width: 35%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(126, 87, 194);
+    outline-color: rgb(81, 45, 168);
+    border-radius: 7px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
